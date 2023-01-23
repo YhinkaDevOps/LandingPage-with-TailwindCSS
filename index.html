@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./dist/main.css">
-    <title>Landing Page</title>
+    <title>Manage - Landing Page</title>
 
 </head>
 <body>
@@ -26,17 +26,18 @@
             </div>
             <!-- Button -->
             <a href="#" class="hidden p-3 px-6 pt-2 text-white bg-brightRed rounded-full baseline hover:bg-brightRedLight md:block">Get Started</a>
+
+            <!-- Hamburger Icon -->
+            <button
+                id="menu-btn"
+                class=" lock hamburger md:hidden focus:outline-none"
+                >
+                <span class="hamburger-top"></span>
+                <span class="hamburger-middle"></span>
+                <span class="hamburger-bottom"></span>
+            </button>
         </div>
         
-        <!-- Hamburger Icon -->
-        <button
-          id="menu-btn"
-          class="block hamburger md:hidden focus:outline-none"
-        >
-          <span class="hamburger-top"></span>
-          <span class="hamburger-middle"></span>
-          <span class="hamburger-bottom"></span>
-        </button>
 
         <!-- Mobile Menu -->
       <div class="md:hidden">
@@ -284,8 +285,8 @@
            <!-- Social Links Container -->
           <div class="flex justify-center space-x-4">
             <!-- Link 1 -->
-            <a href="#">
-              <img src="img/icon-facebook.svg" alt="" class="h-8" />
+            <a href="#" >
+              <img src="img/icon-facebook.svg" alt="" class="h-8 " />
             </a>
             <!-- Link 2 -->
             <a href="#">
@@ -341,10 +342,9 @@
             Copyright &copy; 2022, All Rights Reserved
           </div>
         </div>          
-
-        
-
     </div>
+
+    <script src="./js/script.js"></script>
 
    </footer>
 
