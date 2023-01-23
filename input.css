@@ -25,7 +25,7 @@ body {
   }
 }
 
-hamburger-top,
+.hamburger-top,
 .hamburger-middle,
 .hamburger-bottom {
   position: absolute;
